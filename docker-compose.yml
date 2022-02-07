@@ -2,6 +2,6 @@ version: '2'
 
 services:
   nginx:
-    image: docker.io/bitnami/nginx:1.21
+    image: "$appimage"
     ports:
       - '80:8080'
